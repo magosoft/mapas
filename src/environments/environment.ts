@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,  
+  apiurl: "https://apis100-dev.grupo-lafuente.com/api-sap/v2",
+  headers: {
+    'Content-Type': 'application/json',
+    'apikey': 'RbuYYTDhD1Sl0mrgD8Ev7bPIGPhmu1Bx'
+  },
+  matnr:702
 };
 
 /*
